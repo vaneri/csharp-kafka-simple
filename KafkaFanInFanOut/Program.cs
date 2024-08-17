@@ -47,29 +47,34 @@ class Program
                     // Produce the message to the specified partition
                     var message = new Message<Null, string> { Value = consumeResult.Message.Value };
                     var topicPartition = new TopicPartition("partition-ingestion-topic", partition);
-
-                    producer.Produce(
-                        topicPartition,
-                        message,
-                        deliveryReport =>
-                        {
-                            if (deliveryReport.Error.IsError)
+                    try
+                    {
+                        producer.Produce(
+                            topicPartition,
+                            message,
+                            deliveryReport =>
                             {
-                                Console.WriteLine(
-                                    $"Failed to deliver message: {deliveryReport.Error.Reason}"
-                                );
+                                if (deliveryReport.Error.IsError)
+                                {
+                                    Console.WriteLine(
+                                        $"Failed to deliver message: {deliveryReport.Error.Reason} & partition {partition}"
+                                    );
+                                }
+                                else
+                                {
+                                    Console.WriteLine(
+                                        $"Delivered message to {deliveryReport.TopicPartitionOffset} & partition {partition}"
+                                    );
+                                }
                             }
-                            else
-                            {
-                                Console.WriteLine(
-                                    $"Delivered message to {deliveryReport.TopicPartitionOffset}"
-                                );
-                            }
-                        }
-                    );
-
-                    // You can also wait for the delivery report (synchronous produce)
-                    // producer.Produce(topicPartition, message).Wait();
+                        );
+                    }
+                    catch (ProduceException<Null, string> e)
+                    {
+                        Console.WriteLine(
+                            $"Delivery failed: {e.Error.Reason} & partition {partition}"
+                        );
+                    }
                 }
             }
             catch (OperationCanceledException)

@@ -39,3 +39,4 @@
 /home/vaneri/development/csharp-startup/ingestor/KafkaScripting/obj/Debug/net8.0/KafkaScripting.pdb
 /home/vaneri/development/csharp-startup/ingestor/KafkaScripting/obj/Debug/net8.0/KafkaScripting.genruntimeconfig.cache
 /home/vaneri/development/csharp-startup/ingestor/KafkaScripting/obj/Debug/net8.0/ref/KafkaScripting.dll
+/home/vaneri/development/csharp-startup/ingestor/KafkaScripting/obj/Debug/net8.0/KafkaScripting.sourcelink.json

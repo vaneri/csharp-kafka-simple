@@ -39,3 +39,4 @@
 /home/vaneri/development/csharp-startup/ingestor/KafkaFanInFanOut/obj/Debug/net8.0/KafkaFanInFanOut.pdb
 /home/vaneri/development/csharp-startup/ingestor/KafkaFanInFanOut/obj/Debug/net8.0/KafkaFanInFanOut.genruntimeconfig.cache
 /home/vaneri/development/csharp-startup/ingestor/KafkaFanInFanOut/obj/Debug/net8.0/ref/KafkaFanInFanOut.dll
+/home/vaneri/development/csharp-startup/ingestor/KafkaFanInFanOut/obj/Debug/net8.0/KafkaFanInFanOut.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KafkaFanInFanOut")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c974d923fb7ea6c7cafb5a667a666d819a8b2e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("KafkaFanInFanOut")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KafkaFanInFanOut")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
