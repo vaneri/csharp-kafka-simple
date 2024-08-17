@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "NjzI/sdGaVUbqSD49jUDyo0ley01gA5LvlL/qsDxiLRw9f3cD2BTBC9Zwzfjpvlh+glXF/Hr6BkBEX6O0fqHMQ==",
+  "success": true,
+  "projectFilePath": "/home/vaneri/development/csharp-startup/ingestor/KafkaScripting/KafkaScripting.csproj",
+  "expectedPackageFiles": [
+    "/home/vaneri/.nuget/packages/confluent.kafka/2.5.2/confluent.kafka.2.5.2.nupkg.sha512",
+    "/home/vaneri/.nuget/packages/librdkafka.redist/2.5.0/librdkafka.redist.2.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

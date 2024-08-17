@@ -1,0 +1,14 @@
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/bin/Debug/net8.0/KafkaPartitionConsumer
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/bin/Debug/net8.0/KafkaPartitionConsumer.deps.json
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/bin/Debug/net8.0/KafkaPartitionConsumer.runtimeconfig.json
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/bin/Debug/net8.0/KafkaPartitionConsumer.dll
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/bin/Debug/net8.0/KafkaPartitionConsumer.pdb
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/obj/Debug/net8.0/KafkaPartitionConsumer.GeneratedMSBuildEditorConfig.editorconfig
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/obj/Debug/net8.0/KafkaPartitionConsumer.AssemblyInfoInputs.cache
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/obj/Debug/net8.0/KafkaPartitionConsumer.AssemblyInfo.cs
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/obj/Debug/net8.0/KafkaPartitionConsumer.csproj.CoreCompileInputs.cache
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/obj/Debug/net8.0/KafkaPartitionConsumer.dll
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/obj/Debug/net8.0/refint/KafkaPartitionConsumer.dll
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/obj/Debug/net8.0/KafkaPartitionConsumer.pdb
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/obj/Debug/net8.0/KafkaPartitionConsumer.genruntimeconfig.cache
+/home/vaneri/development/csharp-startup/ingestor/KafkaPartitionConsumer/obj/Debug/net8.0/ref/KafkaPartitionConsumer.dll
